@@ -1,0 +1,41 @@
+# Environment & secrets
+.env
+
+# Cleaner config & data (user-generated)
+cleaner.json
+regex.txt
+prompt.txt
+organized/
+scraped/
+
+# Zip outputs
+*.zip
+
+# Logs
+*.log
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+/phantomclean
+/phantomclean-linux-amd64
+/phantomclean-linux-arm64
+/phantomclean-darwin-amd64
+/phantomclean-darwin-arm64
+/phantomclean-windows-amd64.exe
+
+# Ignore binaries
+phantomclean-*
+
+# State database
+.phantomclean/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
